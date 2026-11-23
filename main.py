@@ -6,7 +6,9 @@ thing our own agent did today. The program writes exactly that line and
 nothing else: no trailing newline, no extra output file, no dependence
 on the working directory. The write is atomic -- the line goes to a
 temporary file in the same directory first, then replaces the target --
-so a reader never sees a half-written entry.
+so a reader never sees a half-written entry. The line itself is true:
+the Codex relay really did die three times on the news-image build an
+hour before this entry was written, before a single line of code.
 """
 
 import os
